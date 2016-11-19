@@ -17,5 +17,7 @@ namespace GummiBearKingdom.Models
         public string Name { get; set; }
         public int Cost { get; set; }
         public string Country_origin { get; set; }
+        public  int CategoryId { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

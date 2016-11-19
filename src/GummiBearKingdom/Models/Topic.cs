@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GummiBearKingdom.Models
 {
+    //Db Table Naming Convention need to be plural
     [Table("Topics")]
     public class Topic
     {
@@ -14,5 +15,6 @@ namespace GummiBearKingdom.Models
         public int TopicId { get; set; }
         public string Subject { get; set; }
         public virtual ICollection<Post> Posts { get; set; }
+        //nested table 
     }
 }
