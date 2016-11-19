@@ -15,6 +15,6 @@ namespace GummiBearKingdom.Models
         public int TopicId { get; set; }
         public string Subject { get; set; }
         public virtual ICollection<Post> Posts { get; set; }
-        //nested table 
+        
     }
 }
