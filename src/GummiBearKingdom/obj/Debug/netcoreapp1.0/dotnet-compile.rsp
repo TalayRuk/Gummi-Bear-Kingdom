@@ -197,6 +197,9 @@
 --resource:"C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Program.cs
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Startup.cs
+C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161119080125_Initial.cs
+C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\20161119080125_Initial.Designer.cs
+C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Migrations\GummiBearDbContextModelSnapshot.cs
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Category.cs
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\GummiBearDbContext.cs
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Models\Post.cs
