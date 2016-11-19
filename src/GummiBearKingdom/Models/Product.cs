@@ -19,6 +19,7 @@ namespace GummiBearKingdom.Models
         public string Country_origin { get; set; }
         public  int CategoryId { get; set; }
         public virtual Category Category { get; set; }
+        //one to many relationship Category has many products 
 
     }
 }

@@ -14,6 +14,6 @@ namespace GummiBearKingdom.Models
         public int CategoryId { get; set; }
         public string Type { get; set; }
         public virtual ICollection<Product> Products { get; set; }
-        //nested table 
+        //nested table: one to many relationship Category has many products 
     }
 }
