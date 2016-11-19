@@ -9,6 +9,7 @@ namespace GummiBearKingdom
 {
     public class Program
     {
+        //Build the host 
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()

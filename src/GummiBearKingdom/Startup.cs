@@ -31,16 +31,21 @@ namespace GummiBearKingdom
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+
             //Add services.AddEntityFramework
             services.AddEntityFramework()
                 .AddDbContext<GummiBearDbContext>(options =>
-                    options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"])); 
-                        //set up the connection to connect database to this app using a connection string 
+                    options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            //set up the connection to connect database to this app using a connection string 
+
+
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. to set up the application
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
-        {
+        { 
+            //UseMvc() -tell app that it'll be using the MVC framwork
             loggerFactory.AddConsole();
 
             if (env.IsDevelopment())
@@ -48,9 +53,17 @@ namespace GummiBearKingdom
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
             app.Run(async (context) =>
             {
-                //a default page 
+                //a default page  just like Console.WriteLine 
                 await context.Response.WriteAsync("Welcome to Gummi Bear Kingdom!");             
             });
         }
