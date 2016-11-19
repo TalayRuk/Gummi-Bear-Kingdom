@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 //Add Model
 using GummiBearKingdom.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace GummiBearKingdom
 {
@@ -21,7 +22,7 @@ namespace GummiBearKingdom
         public IConfigurationRoot Configuration { get; set; }
         public Startup(IHostingEnvironment env)
         {
-            var builder = new WarningConfigurationBuilder()
+            var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json"); //add database 
             Configuration = builder.Build();
