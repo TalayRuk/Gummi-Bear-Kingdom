@@ -34,7 +34,7 @@ namespace GummiBearKingdom
             services.AddEntityFramework()
                 .AddDbContext<GummiBearDbContext>(options =>
                     options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"])); 
-                        //set up the connection to connect to database
+                        //set up the connection to connect database to this app using a connection string 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
