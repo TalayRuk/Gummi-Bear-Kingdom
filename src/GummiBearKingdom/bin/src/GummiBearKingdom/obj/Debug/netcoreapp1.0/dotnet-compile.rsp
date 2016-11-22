@@ -1,5 +1,5 @@
---temp-output:C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\
---out:C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\bin\Debug\netcoreapp1.0\GummiBearKingdom.dll
+--temp-output:C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\bin\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\bin\src\GummiBearKingdom\bin\Debug\netcoreapp1.0\GummiBearKingdom.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -58,7 +58,7 @@
 --reference:C:\Users\Note\.nuget\packages\Microsoft.DotNet.Cli.Utils\1.0.0-preview2-003121\lib\netstandard1.6\Microsoft.DotNet.Cli.Utils.dll
 --reference:C:\Users\Note\.nuget\packages\Microsoft.DotNet.InternalAbstractions\1.0.0\lib\netstandard1.3\Microsoft.DotNet.InternalAbstractions.dll
 --reference:C:\Users\Note\.nuget\packages\Microsoft.DotNet.ProjectModel\1.0.0-rc3-003121\lib\netstandard1.6\Microsoft.DotNet.ProjectModel.dll
---reference:C:\Users\Note\.nuget\packages\Microsoft.EntityFrameworkCore\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
+--reference:C:\Users\Note\.nuget\packages\Microsoft.EntityFrameworkCore\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
 --reference:C:\Users\Note\.nuget\packages\Microsoft.EntityFrameworkCore.Design\1.0.0-preview2-final\lib\netcoreapp1.0\Microsoft.EntityFrameworkCore.Design.dll
 --reference:C:\Users\Note\.nuget\packages\Microsoft.EntityFrameworkCore.Design.Core\1.0.0-preview2-final\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Design.Core.dll
 --reference:C:\Users\Note\.nuget\packages\Microsoft.EntityFrameworkCore.Relational\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.dll
@@ -195,7 +195,7 @@
 --reference:C:\Users\Note\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Note\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Note\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
+--resource:"C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\bin\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Program.cs
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Startup.cs
 C:\Users\Note\Desktop\GummiBearKingdom\src\GummiBearKingdom\Controllers\HomeController.cs

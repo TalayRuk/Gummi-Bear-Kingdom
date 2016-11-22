@@ -39,7 +39,6 @@ namespace GummiBearKingdom
                     options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             //set up the connection to connect database to this app using a connection string 
 
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. to set up the application
@@ -53,6 +52,7 @@ namespace GummiBearKingdom
                 app.UseDeveloperExceptionPage();
             }
 
+            // to use _layout.html
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
