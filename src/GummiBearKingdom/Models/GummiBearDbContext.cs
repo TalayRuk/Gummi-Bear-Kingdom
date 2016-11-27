@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 //add
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,7 +24,7 @@ namespace GummiBearKingdom.Models
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\\MSSQLLocalDB;Database=GummiBearKingdom;Trusted_Connection=True;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\\MSSQLLocalDB;Database=GummiBearKingdom;Trusted_Connection=True");
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {

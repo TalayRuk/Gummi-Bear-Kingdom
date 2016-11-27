@@ -12,8 +12,6 @@ namespace GummiBearKingdom.Models
         //Build the host 
         public static void Main(string[] args)
         {
-            //add save to database
-            var db = new GummiBearDbContext()
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
