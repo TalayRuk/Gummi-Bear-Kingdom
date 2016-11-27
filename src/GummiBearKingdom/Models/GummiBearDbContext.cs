@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 //add
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
+using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
 namespace GummiBearKingdom.Models
@@ -18,7 +21,7 @@ namespace GummiBearKingdom.Models
         //DbSet<Table> will be set as Table in the SQL database 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Topic> Topics { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
        
         protected override void OnModelCreating(ModelBuilder builder)

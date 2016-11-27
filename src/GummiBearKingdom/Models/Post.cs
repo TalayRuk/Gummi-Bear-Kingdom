@@ -15,6 +15,6 @@ namespace GummiBearKingdom.Models
         public string Title { get; set; }
         public string Author { get; set; }
         public string Text_body { get; set; }
-        public virtual Topic Topic { get; set; }
+        public virtual Blog Blog { get; set; }
     }
 }

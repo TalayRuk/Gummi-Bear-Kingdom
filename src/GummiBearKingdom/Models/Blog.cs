@@ -8,13 +8,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace GummiBearKingdom.Models
 {
     //Db Table Naming Convention need to be plural
-    [Table("Topics")]
-    public class Topic
+    [Table("Blogs")]
+    public class Blog
     {
         [Key]
-        public int TopicId { get; set; }
+        public int BlogId { get; set; }
         public string Subject { get; set; }
         public virtual ICollection<Post> Posts { get; set; }
-        
     }
 }
