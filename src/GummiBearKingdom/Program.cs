@@ -5,13 +5,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace GummiBearKingdom
+namespace GummiBearKingdom.Models
 {
     public class Program
     {
         //Build the host 
         public static void Main(string[] args)
         {
+            //add save to database
+            var db = new GummiBearDbContext()
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
