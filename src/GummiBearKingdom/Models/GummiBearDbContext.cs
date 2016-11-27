@@ -24,6 +24,10 @@ namespace GummiBearKingdom.Models
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\\MSSQLLocalDB;Database=GummiBearKingdom;Trusted_Connection=True;MultipleActiveResultSets=true");
+        }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
