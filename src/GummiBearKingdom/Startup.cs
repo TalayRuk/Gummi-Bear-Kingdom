@@ -36,7 +36,7 @@ namespace GummiBearKingdom
             //Add services.AddEntityFramework
             services.AddEntityFramework()
                 .AddDbContext<GummiBearDbContext>(options =>
-                    options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             //set up the connection to connect database to this app using a connection string 
 
         }
