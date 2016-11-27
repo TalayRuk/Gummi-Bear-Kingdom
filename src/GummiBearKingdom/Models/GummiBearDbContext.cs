@@ -16,6 +16,10 @@ namespace GummiBearKingdom.Models
         //Options are primary used to select and congifure the data store
         { }
 
+        public GummiBearDbContext()
+        {
+        }
+
         //DbSet<Table> will be set as Table in the SQL database 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }

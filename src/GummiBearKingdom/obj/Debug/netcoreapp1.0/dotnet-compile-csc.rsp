@@ -196,6 +196,8 @@
 -resource:"C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\obj\Debug\netcoreapp1.0\GummiBearKingdomdotnet-compile.deps.json",GummiBearKingdom.deps.json
 "C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\Program.cs"
 "C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\Startup.cs"
+"C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\Controllers\BlogsController.cs"
+"C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\Controllers\ProductsController.cs"
 "C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\Migrations\20161127205055_InitialCreate.cs"
 "C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\Migrations\20161127205055_InitialCreate.Designer.cs"
 "C:\Users\Vichitra Pool\Desktop\Gummi-Bear-Kingdom\src\GummiBearKingdom\Migrations\GummiBearDbContextModelSnapshot.cs"
