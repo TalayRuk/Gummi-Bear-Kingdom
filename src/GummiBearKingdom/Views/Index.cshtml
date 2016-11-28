@@ -11,6 +11,10 @@
         @foreach (var listProduct in Model)
         {
             <li>@Html.DisplayFor(modelProduct => listProduct.Name)</li>
+            <li>@Html.DisplayFor(modelProduct => listProduct.Cost)</li>
+            <li>@Html.DisplayFor(modelProduct => listProduct.Country_origin)</li>
+
+
         }
     </ul>
 </body>
